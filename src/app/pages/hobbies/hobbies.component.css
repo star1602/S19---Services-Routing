@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.contenedor_hobbies{
+    padding-left: 1em;
+    margin-top: 2em;
+}
+
+
+.img_hobbie{
+    width: 20em;
+}
+
+.titulo{
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_listo{
+    background-color: #465424;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}

@@ -1,0 +1,13 @@
+<div class="container"> 
+        <ul>
+          <li *ngFor="let product of products">
+            <div class="contenedor_hobbies">
+                  <img class="img_hobbie" src="{{product.img}}" alt="Card image">
+                  <div class="titulo">
+                        <h3 class="card-title">{{ product.title }}</h3>
+                        <a href="#" routerLink="" (click)="showProduct(product.id)" class="btn_listo">Saber más</a>
+                   </div>
+            </div>
+          </li>
+        </ul>
+    </div>
